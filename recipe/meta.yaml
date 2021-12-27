@@ -1,5 +1,5 @@
 {% set name = "serialize" %}
-{% set version = "0.1" %}
+{% set version = "0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Serialize-{{ version }}.tar.gz
-  sha256: b3d6effdd3651067712a6b9d8b21fdee30ef7cd524f1597d8acc26b0250b94ad
+  sha256: 220af8c2fde5510122dcf06edcd727f65f96a3a74645347888fef99f2f7f3f41
 
 build:
   noarch: python
